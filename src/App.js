@@ -41,7 +41,7 @@ function App() {
   <aside id="colorlib-hero">
     <div className="flexslider">
       <ul className="slides">
-         <li >
+         <li style={{backgroundImage:`url(/images/blog-1.jpg)`}} >
            <div className="overlay"></div>
            <div className="container-fluid">
              <div className="row">
@@ -54,7 +54,7 @@ function App() {
              </div>
            </div>
          </li>
-         <li >
+         <li style={{backgroundImage:`url(/images/blog-2.jpg)`}} >
            <div className="overlay"></div>
            <div className="container-fluid">
              <div className="row">
@@ -67,7 +67,7 @@ function App() {
              </div>
            </div>
          </li>
-         <li >
+         <li style={{backgroundImage:`url(/images/blog-5.jpg)`}} >
            <div className="overlay"></div>
            <div className="container-fluids">
              <div className="row">
@@ -80,7 +80,7 @@ function App() {
              </div>
            </div>
          </li>
-         <li >
+         <li style={{backgroundImage:`url(/images/blog-4.jpg)`}} >
            <div className="overlay"></div>
            <div className="container-fluid">
              <div className="row">
@@ -342,7 +342,7 @@ function App() {
     </div>
     <div className="tour-wrap">
       <a href="#" className="tour-entry animate-box">
-        <div className="tour-img" >
+        <div className="tour-img" style={{backgroundImage:`url(/images/tour-1.jpg)`}}>
         </div>
         <span className="desc">
           <p className="star"><span><i className="icon-star-full"></i><i className="icon-star-full"></i><i className="icon-star-full"></i><i className="icon-star-full"></i><i className="icon-star-full"></i></span> 545 Reviews</p>
@@ -352,7 +352,7 @@ function App() {
         </span>
       </a>
       <a href="#" className="tour-entry animate-box">
-        <div className="tour-img">
+        <div className="tour-img" style={{backgroundImage:`url(/images/tour-2.jpg)`}}>
         </div>
         <span className="desc">
           <p className="star"><span><i className="icon-star-full"></i><i className="icon-star-full"></i><i className="icon-star-full"></i><i className="icon-star-full"></i><i className="icon-star-full"></i></span> 545 Reviews</p>
@@ -362,7 +362,7 @@ function App() {
         </span>
       </a>
       <a href="#" className="tour-entry animate-box">
-        <div className="tour-img" >
+        <div className="tour-img" style={{backgroundImage:`url(/images/tour-3.jpg)`}}>
         </div>
         <span className="desc">
           <p className="star"><span><i className="icon-star-full"></i><i className="icon-star-full"></i><i className="icon-star-full"></i><i className="icon-star-full"></i><i className="icon-star-full"></i></span> 545 Reviews</p>
@@ -372,7 +372,7 @@ function App() {
         </span>
       </a>
       <a href="#" className="tour-entry animate-box">
-        <div className="tour-img" >
+        <div className="tour-img" style={{backgroundImage:`url(/images/tour-4.jpg)`}} >
         </div>
         <span className="desc">
           <p className="star"><span><i className="icon-star-full"></i><i className="icon-star-full"></i><i className="icon-star-full"></i><i className="icon-star-full"></i><i className="icon-star-full"></i></span> 545 Reviews</p>
@@ -382,7 +382,7 @@ function App() {
         </span>
       </a>
       <a href="#" className="tour-entry animate-box">
-        <div className="tour-img" >
+        <div className="tour-img" style={{backgroundImage:`url(/images/tour-5.jpg)`}} >
         </div>
         <span className="desc">
           <p className="star"><span><i className="icon-star-full"></i><i className="icon-star-full"></i><i className="icon-star-full"></i><i className="icon-star-full"></i><i className="icon-star-full"></i></span> 545 Reviews</p>
@@ -392,7 +392,7 @@ function App() {
         </span>
       </a>
       <a href="#" className="tour-entry animate-box">
-        <div className="tour-img" >
+        <div className="tour-img" style={{backgroundImage:`url(/images/tour-6.jpg)`}} >
         </div>
         <span className="desc">
           <p className="star"><span><i className="icon-star-full"></i><i className="icon-star-full"></i><i className="icon-star-full"></i><i className="icon-star-full"></i><i className="icon-star-full"></i></span> 545 Reviews</p>
@@ -402,7 +402,7 @@ function App() {
         </span>
       </a>
       <a href="#" className="tour-entry animate-box">
-        <div className="tour-img" >
+        <div className="tour-img" style={{backgroundImage:`url(/images/tour-7.jpg)`}}>
         </div>
         <span className="desc">
           <p className="star"><span><i className="icon-star-full"></i><i className="icon-star-full"></i><i className="icon-star-full"></i><i className="icon-star-full"></i><i className="icon-star-full"></i></span> 545 Reviews</p>
@@ -412,7 +412,7 @@ function App() {
         </span>
       </a>
       <a href="#" className="tour-entry animate-box">
-        <div className="tour-img" >
+        <div className="tour-img" style={{backgroundImage:`url(/images/tour-8.jpg)`}}>
         </div>
         <span className="desc">
           <p className="star"><span><i className="icon-star-full"></i><i className="icon-star-full"></i><i className="icon-star-full"></i><i className="icon-star-full"></i><i className="icon-star-full"></i></span> 545 Reviews</p>
@@ -434,13 +434,13 @@ function App() {
         </div>
       </div>
       <div className="blog-flex">
-        <div className="f-entry-img" style={{backgroundImage: 'url(./images/blog-3.jpg)'}}>
+        <div className="f-entry-img" style={{backgroundImage: 'url(/images/blog-3.jpg)'}}>
         </div>
         <div className="blog-entry aside-stretch-right">
           <div className="row">
             <div className="col-md-12 animate-box">
               <a href="blog.html" className="blog-post">
-                <span className="img" ></span>
+                <span className="img"style={{backgroundImage:`url(/images/blog-1.jpg)`}}  ></span>
                 <div className="desc">
                   <span className="date">Feb 22, 2018</span>
                   <h3>A Definitive Guide to the Best Dining</h3>
@@ -450,7 +450,7 @@ function App() {
             </div>
             <div className="col-md-12 animate-box">
               <a href="blog.html" className="blog-post">
-                <span className="img"></span>
+                <span className="img" style={{backgroundImage:`url(/images/blog-2.jpg)`}} ></span>
                 <div className="desc">
                   <span className="date">Feb 22, 2018</span>
                   <h3>How These 5 People Found The Path to Their Dream Trip</h3>
@@ -460,7 +460,7 @@ function App() {
             </div>
             <div className="col-md-12 animate-box">
               <a href="blog.html" className="blog-post">
-                <span className="img" ></span>
+                <span className="img" style={{backgroundImage:`url(/images/blog-4.jpg)`}} ></span>
                 <div className="desc">
                   <span className="date">Feb 22, 2018</span>
                   <h3>Our Secret Island Boat Tour Is just for You</h3>
@@ -474,7 +474,7 @@ function App() {
     </div>
   </div>
 
-  <div id="colorlib-intro" className="intro-img"  data-stellar-background-ratio="0.5">
+  <div id="colorlib-intro" className="intro-img" style={{backgroundImage:`url(/images/cover-img-1.jpg)`}}  data-stellar-background-ratio="0.5">
     <div className="overlay"></div>
     <div className="container">
       <div className="row">
@@ -804,7 +804,7 @@ function App() {
   </div>
 
 
-  <div id="colorlib-subscribe" >
+  <div id="colorlib-subscribe" style={{backgroundImage:`url(/images/img_bg_2.jpg)`}}  >
     <div className="overlay"></div>
     <div className="container">
       <div className="row">
